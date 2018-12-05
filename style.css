@@ -58,3 +58,16 @@ p.my_padding {
   padding: 0 40px 0 30px;
   text-align: justify;
 }
+
+.fixed-footer {
+  background-color: #6000c4;
+  /*position: fixed;
+  left: 0;
+  bottom: 0;*/
+  width: 100%;
+  color: white;
+}
+
+h4 {
+  font-weight: bold;
+}
