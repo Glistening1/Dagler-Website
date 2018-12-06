@@ -6,45 +6,159 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <!-- Personal CSS-->
  <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <nav class="navbar navbar-default">
-   <div class="container-fluid">
-     <div class="navbar-header">
-       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <!-- Need another <span></span>? -->
-       </button>
-     </div>
-     <div class="collapse navbar-collapse" id="myNavbar">
-       <ul class="nav navbar-nav">
-         <li><a href="index.html">Home</a></li>
-         <li><a href="ecs.html">Exploring Computer Science</a></li>
-         <li class="current_nav"><a href="apcs_a.html">AP Computer Science A</a></li>
-         <li><a href="apcs_p.html">AP Computer Science Principles</a></li>
-         <li><a href="web1.html">Web Design and Development 1</a></li>
-         <li><a href="web2.html">Web Design and Development 2</a></li>
-         <li><a href="incon.html">Industry Connections</a></li>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">Franklin High School Computer Science</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars toggler"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</li></a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Classes</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ecs.html">Exploring Computer Science</a>
+            <a class="dropdown-item active" href="apcs_a.html">AP Computer Science A<span class="sr-only">(current)</span></a>
+            <a class="dropdown-item" href="apcs_p.html">AP Computer Science Principles</a>
+            <a class="dropdown-item" href="web1.html">Web Design and Development 1</a>
+            <a class="dropdown-item" href="web2.html">Web Design and Development 2</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="indcon.html">Industry Connections</a>
+        </li>
       </ul>
-     </div>
-   </div>
- </nav>
+    </div>
+  </nav>
+
+  <br>
 
  <div class="container">
      <div class="jumbotron">
-       <h2>Jumbotron</h2>
+       <h2>Exploring Computer Science</h2>
        <p>Insert Picture</p>
      </div>
+
+   <div class="container">
+     <div class="row">
+       <div class="col-md-8">
+         <h4>Course Overview</h4>
+         <p>AP Computer Science A is equivalent to a first-semester, college level course in computer science.
+            The course introduces problem solving and programming using Java.
+            The topics in this course include: program class design, implementation techniques, programming constructions, Java library classes and interfaces included in the AP java subset, testing, debugging, runtime exceptions, program correctness, algorithm analysis, numerical representations of integers, primitive data types, strings, classes, lists, one and two dimensional arrays, sorting, searching, and operations on data structures.
+            A minimum of 20 hours for hands on lab experiences are also part of the course.
+            Discussions on the ethical and social implications of computers including protection of privacy, intellectual property, and public safety will be included throughout the school year.</p>
+         <br>
+         <h4> Class Policies: </h4>
+         <p>All school and district rules/policies are expected and enforced.
+            The two most importatn rules to me are: you are respectful to yourself and others, and you are engaged and learning the material we are working on in the class.</p>
+         <br>
+         <h4>Grading Policies: </h4>
+         <p>Grades are based on the percent of total points earned from assignments, activities and projects.
+            Points are cumulative for each term. Here is the grading scale for our class: </p>
+            <table class="table">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Letter</th>
+                  <th scope="col">Percent</th>
+                  <th scope="col">Behavior</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">A</th>
+                  <td>90%-100%</td>
+                  <td>A student who is excellent in computer science and an outstanding student.</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <th scope="row">B</th>
+                  <td>80%-89.9%</td>
+                  <td>A student who is excellent in computer science and an average student, or average in computer science and a great student.</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <th scope="row">C</th>
+                  <td>70%-79.9%</td>
+                  <td>A student who is average in computer science and an average student, or excellent in computer science and a poor student.</td>
+                </tr>
+              </tbody>
+              <tbody>
+                <tr>
+                  <th scope="row">D/F</th>
+                  <td>0%-69.9%</td>
+                  <td>A student who needs to retake the course because of poor study skills and lack of effort.</td>
+                </tr>
+              </tbody>
+            </table>
+
+          <p>Students are expected to complete and submit their own work.
+            Involvement in any activity for the purpose of copying, cheating or benefiting from work that is not 100% their own will be subject to consequences as outlined in the Academic Code of Conduct. </p>
+
+          <h4>Privilege Passes</h4>
+          <p>Students will be issued 3 privilege passes to be used, with teacher approval, whenever they leave the classroom during class.
+             Unused passes may be redeemed for extra credit at the end of the term.
+             Students should have their passes with them daily. </p>
+
+           <ul class="list-group">
+             <li class="list-group-item"><b>Preperation -</b> Be ready physically and mentally.</li>
+             <li class="list-group-item"><b>Respect -</b> Show consideration, appreciation, and acceptance.</li>
+             <li class="list-group-item"><b>Integrity -</b> Be honest, sincere, and kind in words and actions.</li>
+             <li class="list-group-item"><b>Determination -</b> Set goals and meet expectations.</li>
+             <li class="list-group-item"><b>Empathy -</b> Show the ability to understand and share the feelings of another.</li>
+           </ul>
+
+           <h4>The Computer Science Pathway: </h4>
+           <p>This course is part of a three-year computer science pathway.
+              The courses in order are Exploring Computer Science, AP Computer Science Principles and AP Computer Science A.
+              Each of these courses is a prerequisite of the one before it. </p>
+          </div>
+
+          <div class="col-md-4">
+            <h4>Text Book: </h4>
+            <ul class="list-group">
+              <li class="list-group-item">Liang, Daniel. <i>Introduction to Java Programming AP Edition</i>, New Jersey: Pearson. 2017</li>
+            </ul>
+
+            <h4>Prerequisites: </h4>
+            <ul class="list-group">
+              <li class="list-group-item">Passing Math II</li>
+            </ul>
+
+            <h4>Required Class Materials: </h4>
+            <ul class="list-group">
+                <li class="list-group-item">Pencil/Pen</li>
+                <li class="list-group-item">Notebook</li>
+            </ul>
+          </div>
+      </div>
   </div>
+</div>
 
-  <p></p>
-
-
+  <footer class="fixed-footer">
+    <div class="container">
+      <div class="row">
+        <h2>Contact Information</h2>
+        <h4 class="col-md-3">Teacher: Mr. Dagler</h4>
+        <h4 class="col-md-3">Class Handouts: <a href="bit.ly/mrdaglger_web1">bit.ly/mrdagler_web1</a></h4>
+        <h4 class="col-md-3">Email: mrdagler@csfhs.net</h4>
+        <h4 class="col-md-3">Voicemail: (916) 714-8150 x 41912</h4>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
