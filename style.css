@@ -1,53 +1,54 @@
 .jumbotron {
   background-image: url("./Images/image.jpg");
   background-size: cover;
-  color: #FFFFFF;
+  color: #9d85df;
   font-style: italic;
 }
 
 .navbar {
   background-color:	#6000c4;
-  border-color: #6bb9ff ;
   background-repeat: no-repeat;
 }
 
-.nav.navbar-nav a {
-  color: #dbdbdb !important;
-  font-size: 110%;
-}
-
-nav a:hover {
-  background-color: #001b7f !important;
-}
-
-/* Change Underline
-li.current_nav {
-  text-decoration: underline;
-}
-
-*/
-
-.nav.navbar-nav li.current_nav a {
+.navbar a {
   color: #FFFFFF !important;
 }
 
-/*
-a, a:hover, a:visited, h3 {
-  color: #FFFFFF;
-  font-weight: bold;
+.dropdown-menu {
+  background-color: #6000c4 !important;
 }
-*/
 
-a:link {
+.toggler {
+  color: #FFFFFF !important;
+}
+
+nav a:hover {
+  background-color: #9d85df !important;
+}
+
+/*a:link {
 	color: #0069e2;
+}*/
+
+button:hover, a:hover {
+	color: #6000c4 !important;
 }
 
-a:hover {
-	color: #001b7f;
+.btn-purple {
+  color: #fff;
+  background-color: #9d85df;
+  border-color: #9d85df;
 }
 
-a:visited {
-	color: #9d85df;
+.collapseButton {
+  color: #9d85df;
+  font-size: 80%;
+  font-weight: bold;
+  display: block;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 p {
@@ -66,8 +67,5 @@ p.my_padding {
   bottom: 0;*/
   width: 100%;
   color: white;
-}
 
-h4 {
-  font-weight: bold;
 }

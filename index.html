@@ -6,94 +6,207 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
- <link rel="stylesheet" href="Dagler.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+  <!-- Personal CSS-->
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <nav class="navbar navbar-default">
-   <div class="container-fluid">
-     <div class="navbar-header">
-       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <!-- Need another <span></span>? -->
-       </button>
-     </div>
-     <div class="collapse navbar-collapse" id="myNavbar">
-       <ul class="nav navbar-nav">
-         <li class="current_nav"><a href="Dagler.html">Home</a></li>
-         <li><a href="ExploringCompSci.html">Exploring Computer Science</a></li>
-         <li><a href="CompSciA.html">AP Computer Science A</a></li>
-         <li><a href="CompSciPrin.html">AP Computer Science Principles</a></li>
-         <li><a href="WebDesign1.html">Web Design and Development 1</a></li>
-         <li><a href="WebDesign2.html">Web Design and Development 2</a></li>
-         <li><a href="IndustryConnections.html">Industry Connections</a></li>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="index.html">Franklin High School Computer Science</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="fas fa-bars toggler"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Classes
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="ecs.html">Exploring Computer Science</a>
+            <a class="dropdown-item" href="apcs_a.html">AP Computer Science A</a>
+            <a class="dropdown-item" href="apcs_p.html">AP Computer Science Principles</a>
+            <a class="dropdown-item" href="web1.html">Web Design and Development 1</a>
+            <a class="dropdown-item" href="web2.html">Web Design and Development 2</a>
+          </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="indcon.html">Industry Connections</a>
+        </li>
       </ul>
-     </div>
-   </div>
- </nav>
+    </div>
+  </nav>
 
- <div class="container">
+  <br>
+
+  <div class="container">
      <div class="jumbotron">
        <h2>Jumbotron</h2>
        <p>Insert Picture</p>
      </div>
   </div>
 
-  <div class="container">
-     <div class="row">
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-        <h4><a href="ExploringCompSci.html">Exploring Computer Science</a></h4>
-        <p>Shows high school students the vast world of computer science.
-           Topics in this course include: human computer interaction, website design, developing problem solving techniques,
-           different number systems, the command line interface, programming in the C language, and modular robotics.
-           In the course several students will be given the opportunity to compete at a statewide robotics competition.</p>
-     </div>
+  <br>
 
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-           <h4><a href="CompSciA.html">AP Computer Science A</a></h4>
-           <p>Is equivalent to a first-semester, college-level course in computer science.
+  <div class="container">
+    <h2>Classes Offered</h2>
+    <br>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4">
+        <div class="card">
+          <div class="card-header" id="headingECS">
+            <h4>
+              <button class="btn btn-link collapseButton" data-toggle="collapse" data-target="#collapseECS" aria-expanded="true" aria-controls="collapseECS">
+                Exploring Computer Science
+              </button>
+            </h4>
+          </div>
+
+          <div id="collapseECS" class="collapse" aria-labelledby="headingECS">
+            <div class="card-body">
+              <p class="card-text">Shows high school students the vast world of computer science.
+              Topics in this course include: human computer interaction, website design, developing problem solving techniques,
+              different number systems, the command line interface, programming in the C language, and modular robotics.
+              In the course several students will be given the opportunity to compete at a statewide robotics competition.
+              </p>
+              <a href="ecs.html" class="btn btn-purple">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4">
+        <div class="card">
+          <div class="card-header" id="headingAPCS_A">
+            <h4>
+              <button class="btn btn-link collapseButton" data-toggle="collapse" data-target="#collapseAPCS_A" aria-expanded="true" aria-controls="collapseAPCS_A">
+                AP Computer Science A
+              </button>
+            </h4>
+          </div>
+  
+          <div id="collapseAPCS_A" class="collapse" aria-labelledby="headingAPCS_A">
+            <div class="card-body">
+              <p>Is equivalent to a first-semester, college-level course in computer science.
               This course emphasizes both object-oriented and imperative problem solving and design using the Java language.
               Some topics in this course include: design strategies and methodologies, data structures, developing algorithms, and approaches to processing data.
-              This course is on a 5.0 GPA bump and there is an AP test the students can take at the end of the course for possible college credit.</p>
-     </div>
+              This course is on a 5.0 GPA bump and there is an AP test the students can take at the end of the course for possible college credit.
+              </p>
+              <a href="apcs_a.html" class="btn btn-purple">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
 
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-           <h4><a href="CompSciPrin.html">AP Computer Science Principles</a></h4>
-           <p>Gives students fundamental concepts of computer science and challenges them to explore how computing and technology is impacting us today.
-             Students will use technology to address real-world problems while learning several topics including abstraction, beginning algorithms, large data sets, and cybersecurity concerns.
-             This course is on a 5.0 GPA bump and there is an AP test the students can take at the end of the course for possible college credit.</p>
-             <br><br>
-     </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4">
+        <div class="card">
+          <div class="card-header" id="headingAPCS_P">
+            <h4>
+              <button class="btn btn-link collapseButton" data-toggle="collapse" data-target="#collapseAPCS_P" aria-expanded="true" aria-controls="collapseAPCS_P">
+                AP Computer Science Principles
+              </button>
+            </h4>
+          </div>
 
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-       <h4><a href="WebDesign1.html">Web Design and Development 1</a></h4>
-       <p>This course teaches students to develop Web sites using Hypertext Markup Language version 5 (<i>HTML5</i>) and Cascading Style Sheets (<i>CSS</i>).
-          They'll also insert images, create hyperlinks, and add tables, forms, videos and audio to Web pages, as well as using <i>HTML5</i> Application Programming Interfaces (APIs) to extend the functionality of Web pages.
-          Other topics include validating HTML code, recognizing the importance of search engine optimization (SEO), and implementing fundamental design concepts.
-          Additional topics include an intro to <i>JavaScript</i>, Image Maps, <i>BootStrap</i>, <i>SVG</i>, and <i>PGP</i>.</p>
-     </div>
+          <div id="collapseAPCS_P" class="collapse" aria-labelledby="headingAPCS_P">
+            <div class="card-body">
+              <p>Gives students fundamental concepts of computer science and challenges them to explore how computing and technology is impacting us today.
+              Students will use technology to address real-world problems while learning several topics including abstraction, beginning algorithms, large data sets, and cybersecurity concerns.
+              This course is on a 5.0 GPA bump and there is an AP test the students can take at the end of the course for possible college credit.
+              </p>
+              <a href="apcs_p.html" class="btn btn-purple">Read More</a>
+            </div>
+          </div>
+        </div>     
+      </div>
+	  
+      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4">
+        <div class="card">
+          <div class="card-header" id="headingweb1">
+            <h4>
+              <button class="btn btn-link collapseButton" data-toggle="collapse" data-target="#collapseweb1" aria-expanded="true" aria-controls="collapseweb1">
+                Web Design and Development 1
+              </button>
+            </h4>
+          </div>
 
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-       <h4><a href="WebDesign2.html">Web Design and Development 2</a></h4>
-       <p>This course teaches the essentials of <i>HTML5</i>, Cascading Style Sheets (<i>CSS</i>) and JavaScript (<i>JS</i>).
-          Students will create Web pages using the <i>HTML5</i> structure elements, embed video and audio, and develop cross-browser user-input forms.
-          They will use <i>CSS3</i> to position and format content, and to create effects such as transformations, transitions and animation.
-          They will also learn basic JavaScript coding to extend the functionality of Web pages with modern features such as geolocation, drag-and-drop, canvas and offline Web applications.
-          In addition, they will learn techniques for code validation and testing, form creation, inline form field validation, and mobile design for browsers and apps, including Responsive Web Design.
-          Additional topics include <i>FlexBox</i>, <i>CSS</i> grid layout, intro to <i>Google Analytics</i>, <i>SASS</i>, and <i>Node.js.</i></p>
-     </div>
-
-     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-       <h4><a href="IndustryConnections.html">Industry Connections</a></h4>
-       <p>This computer science pathway is more than just the classes you take, it also includes activities to connect with the industry.
-          Some of the activities include: guest speakers, field trips, working with local companies on a project, and computions.</p>
-     </div>
-
-     </div>
+          <div id="collapseweb1" class="collapse" aria-labelledby="headingweb1">
+            <div class="card-body">
+              <p>This course teaches students to develop Web sites using Hypertext Markup Language version 5 (<i>HTML5</i>) and Cascading Style Sheets (<i>CSS</i>).
+              They'll also insert images, create hyperlinks, and add tables, forms, videos and audio to Web pages, as well as using <i>HTML5</i> Application Programming Interfaces (APIs) to extend the functionality of Web pages.
+              Other topics include validating HTML code, recognizing the importance of search engine optimization (SEO), and implementing fundamental design concepts.
+              Additional topics include an intro to <i>JavaScript</i>, Image Maps, <i>BootStrap</i>, <i>SVG</i>, and <i>PGP</i>.
+              </p>
+              <a href="web1.html" class="btn btn-purple">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4">
+        <div class="card">
+          <div class="card-header" id="headingweb2">
+            <h4>
+              <button class="btn btn-link collapseButton" data-toggle="collapse" data-target="#collapseweb2" aria-expanded="true" aria-controls="collapseweb2">
+                Web Design and Development 2
+              </button>
+            </h4>
+          </div>
+  
+          <div id="collapseweb2" class="collapse" aria-labelledby="headingweb2">
+            <div class="card-body">
+              <p>This course teaches the essentials of <i>HTML5</i>, Cascading Style Sheets (<i>CSS</i>) and JavaScript (<i>JS</i>).
+              Students will create Web pages using the <i>HTML5</i> structure elements, embed video and audio, and develop cross-browser user-input forms.
+              They will use <i>CSS3</i> to position and format content, and to create effects such as transformations, transitions and animation.
+              They will also learn basic JavaScript coding to extend the functionality of Web pages with modern features such as geolocation, drag-and-drop, canvas and offline Web applications.
+              In addition, they will learn techniques for code validation and testing, form creation, inline form field validation, and mobile design for browsers and apps, including Responsive Web Design.
+              Additional topics include <i>FlexBox</i>, <i>CSS</i> grid layout, intro to <i>Google Analytics</i>, <i>SASS</i>, and <i>Node.js.</i>
+              </p>
+              <a href="web2.html" class="btn btn-purple">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <br>
+
+  <div class="container">
+    <h2>Pathways</h2>
+    <br>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-xl-4">
+        <div class="card">
+          <div class="card-header" id="headingindcon">
+            <h4>
+              <button class="btn btn-link collapseButton" data-toggle="collapse" data-target="#collapseindcon" aria-expanded="true" aria-controls="collapseindcon">
+                Industry Connections
+              </button>
+            </h4>
+          </div>
+
+          <div id="collapseindcon" class="collapse" aria-labelledby="headingindcon">
+            <div class="card-body">
+              <p>This computer science pathway is more than just the classes you take, it also includes activities to connect with the industry.
+              Some of the activities include: guest speakers, field trips, working with local companies on a project, and computions.
+              </p>
+              <a href="indcon.html" class="btn btn-purple">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </body>
 </html>
