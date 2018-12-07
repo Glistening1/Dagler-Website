@@ -1,8 +1,14 @@
 .jumbotron {
-  background-image: url("./Images/image.jpg");
+  background-image: url("./Images/Computer Science Design Sample.jpg");
   background-size: cover;
+  min-width: 1000px;
+  background-repeat: no-repeat;
   color: #9d85df;
   font-style: italic;
+}
+
+body {
+  background-image: linear-gradient(#C0C0C0, white, #9400D3);
 }
 
 .navbar {
