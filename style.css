@@ -1,56 +1,5 @@
-.jumbotron {
-  background-image: url("./Images/Computer Science Design Sample.jpg");
-  background-size: cover;
-  min-width: 1000px;
-  background-repeat: no-repeat;
-  color: #9d85df;
-  font-style: italic;
-}
-
 body {
-  background-image: linear-gradient(#C0C0C0, white, #9400D3);
-}
-
-.navbar {
-  background-color:	#6000c4;
-  background-repeat: no-repeat;
-}
-
-.navbar a {
-  color: #FFFFFF !important;
-}
-
-.dropdown-menu {
-  background-color: #6000c4 !important;
-}
-
-.toggler {
-  color: #FFFFFF !important;
-}
-
-nav a:hover {
-  background-color: #9d85df !important;
-}
-
-/*a:link {
-	color: #0069e2;
-}*/
-
-button:hover, a:hover {
-	color: #6000c4 !important;
-}
-
-.btn-purple {
-  color: #fff;
-  background-color: #9d85df;
-  border-color: #9d85df;
-}
-
-.collapseButton {
-  color: #9d85df;
-  font-size: 80%;
-  font-weight: bold;
-  display: block;
+  background-image: linear-gradient(#C0C0C0, white, #4E2581);
 }
 
 h4 {
@@ -67,11 +16,85 @@ p.my_padding {
 }
 
 .fixed-footer {
-  background-color: #6000c4;
+  background-color: #4E2581;
   /*position: fixed;
   left: 0;
   bottom: 0;*/
   width: 100%;
   color: white;
 
+}
+
+.jumbotron {
+  background-image: url("./Images/Computer Science Design Sample.jpg");
+  background-size: cover;
+  /*min-width: 1000px;*/
+  background-repeat: no-repeat;
+  color: #9d85df;
+  font-style: italic;
+  background-color: transparent;
+}
+
+@media screen and (max-width: 500px) {
+  .jumbotron {
+    background-image: url("./Images/CS.jpg");
+    background-size: contain;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 501px) {
+  .jumbotron {
+    background-image: url("./Images/CSFHS.jpg");
+    background-size: contain;
+    max-width: 1000px;
+  }
+}
+
+.navbar {
+  background-color:	#4E2581;
+  background-repeat: no-repeat;
+}
+
+.navbar a {
+  color: #FFFFFF !important;
+}
+
+.dropdown-menu {
+  background-color: #4E2581 !important;
+}
+
+.toggler {
+  color: #FFFFFF !important;
+}
+
+nav a:hover {
+  background-color: #9d85df !important;
+}
+
+button:hover, a:hover {
+	color: #6000c4 !important;
+}
+
+.dropdown-item.active {
+  background-color: #6000c4;
+}
+
+.btn-purple {
+  color: #fff;
+  background-color: #4E2581;
+  border-color: #4E2581;
+}
+
+.collapseButton {
+  color: #4E2581;
+  font-size: 80%;
+  font-weight: bold;
+  display: block;
+}
+
+.list-group-item {
+  background-color: transparent;
+  border-style: none;
+  padding: 5px;
 }
