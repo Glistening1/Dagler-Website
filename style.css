@@ -36,16 +36,17 @@ p.my_padding {
 }
 
 .navbar {
-  background-color:	#FFFFFF;
+  background-color:	#4E2581;
   background-repeat: no-repeat;
 }
 
 .navbar a {
-  color: #4E2581 !important;
+  color: #FFFFFF;
 }
 
-.dropdown-menu {
+.dropdown-menu, .dropdown-item {
   background-color: #FFFFFF !important;
+  color: #4E2581 !important;
 }
 
 .toggler {
