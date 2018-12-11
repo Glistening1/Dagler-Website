@@ -1,5 +1,6 @@
 body {
-  background-image: linear-gradient(#C0C0C0, white, #4E2581);
+  background-image: linear-gradient(#C0C0C0, white, #9d85df);
+  min-height: 100%;
 }
 
 h4 {
@@ -15,61 +16,48 @@ p.my_padding {
   text-align: justify;
 }
 
-.fixed-footer {
-  background-color: #4E2581;
-  /*position: fixed;
-  left: 0;
-  bottom: 0;*/
-  width: 100%;
-  color: white;
-
-}
-
 .jumbotron {
   background-image: url("./Images/Computer Science Design Sample.jpg");
   background-size: cover;
-  /*min-width: 1000px;*/
   background-repeat: no-repeat;
   color: #9d85df;
   font-style: italic;
   background-color: transparent;
 }
 
-@media screen and (max-width: 500px) {
-  .jumbotron {
-    background-image: url("./Images/CS.jpg");
-    background-size: contain;
-    max-width: 500px;
-  }
+.class-header {
+  font-weight: bold;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 501px) {
+@media screen and (max-width: 1000px) {
   .jumbotron {
-    background-image: url("./Images/CSFHS.jpg");
-    background-size: contain;
-    max-width: 1000px;
+    display: none;
   }
 }
 
 .navbar {
-  background-color:	#4E2581;
+  background-color:	#FFFFFF;
   background-repeat: no-repeat;
 }
 
 .navbar a {
-  color: #FFFFFF !important;
+  color: #4E2581 !important;
 }
 
 .dropdown-menu {
-  background-color: #4E2581 !important;
+  background-color: #FFFFFF !important;
 }
 
 .toggler {
-  color: #FFFFFF !important;
+  color: #4E2581 !important;
 }
 
 nav a:hover {
-  background-color: #9d85df !important;
+  color: #9d85df !important;
+}
+
+.link {
+  color: #9d85df !important;
 }
 
 button:hover, a:hover {
@@ -77,7 +65,7 @@ button:hover, a:hover {
 }
 
 .dropdown-item.active {
-  background-color: #6000c4;
+  background-color: #FFFFFF;
 }
 
 .btn-purple {
