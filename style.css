@@ -1,20 +1,24 @@
+html {
+  min-height: 100%;
+}
+
 body {
   background-image: linear-gradient(#C0C0C0, white, #9d85df);
-  min-height: 100%;
 }
 
 h4 {
   font-weight: bold;
+  font-size: 1.3rem;
 }
 
 p {
   font-size: 120%;
 }
-
+/*
 p.my_padding {
   padding: 0 40px 0 30px;
   text-align: justify;
-}
+}*/
 
 .jumbotron {
   background-image: url("./Images/Computer Science Design Sample.jpg");
@@ -29,7 +33,7 @@ p.my_padding {
   font-weight: bold;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .jumbotron {
     display: none;
   }
@@ -50,7 +54,7 @@ p.my_padding {
 }
 
 .toggler {
-  color: #FFFFFF !important;
+  color: #FFFFFF;
 }
 
 nav a:hover {
@@ -58,11 +62,12 @@ nav a:hover {
 }
 
 .link {
-  color: #9d85df !important;
+  color: #4E2581;
+  font-weight: bold;
 }
 
 button:hover, a:hover {
-	color: #9d85df !important;
+	color: #9d85df;
 }
 
 .dropdown-item.active {
