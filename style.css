@@ -35,8 +35,26 @@ p.my_padding {
 
 @media screen and (max-width: 1200px) {
   .jumbotron {
-    display: none;
+    display: none !important;
   }
+}
+
+@media screen and (max-width: 992px) {
+  .full-text {
+    display: none !important;
+  }
+
+  .short-text {
+    display: inline-block !important;
+  }
+}
+
+.full-text {
+  display: inline-block;
+}
+
+.short-text {
+  display: none;
 }
 
 .navbar {
