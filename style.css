@@ -7,7 +7,7 @@ body {
 }
 
 h4 {
-  font-weight: bold;
+  font-weight: bold !important;
   font-size: 1.3rem;
 }
 
@@ -35,6 +35,9 @@ p.my_padding {
 
 @media screen and (max-width: 1200px) {
   .jumbotron {
+    display: none !important;
+  }
+  .pride {
     display: none !important;
   }
 }
@@ -72,7 +75,7 @@ p.my_padding {
 }
 
 .toggler {
-  color: #FFFFFF;
+  color: #FFFFFF !important;
 }
 
 nav a:hover {
@@ -106,7 +109,20 @@ button:hover, a:hover {
 }
 
 .list-group-item {
-  background-color: transparent;
-  border-style: none;
+  background-color: transparent !important;
+  border-style: none !important;
   padding: 5px;
+}
+
+div.transbox {
+  margin: 10px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
 }
